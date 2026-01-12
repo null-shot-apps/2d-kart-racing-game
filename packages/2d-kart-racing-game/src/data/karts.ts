@@ -1,0 +1,55 @@
+import { Kart } from '@/types/game';
+
+export const KARTS: Kart[] = [
+  {
+    id: 'speedster',
+    name: 'Speedster',
+    color: '#FF3366',
+    accentColor: '#FF6B9D',
+    speed: 9,
+    acceleration: 6,
+    handling: 7,
+    personality: 'Built for pure speed on straightaways',
+  },
+  {
+    id: 'drifter',
+    name: 'Drifter',
+    color: '#00D9FF',
+    accentColor: '#66E5FF',
+    speed: 7,
+    acceleration: 7,
+    handling: 10,
+    personality: 'Master of tight corners and drifting',
+  },
+  {
+    id: 'rocket',
+    name: 'Rocket',
+    color: '#FFD700',
+    accentColor: '#FFE55C',
+    speed: 10,
+    acceleration: 9,
+    handling: 5,
+    personality: 'Explosive acceleration, tricky handling',
+  },
+  {
+    id: 'balanced',
+    name: 'All-Rounder',
+    color: '#00FF88',
+    accentColor: '#66FFB3',
+    speed: 8,
+    acceleration: 8,
+    handling: 8,
+    personality: 'Perfect balance for any situation',
+  },
+  {
+    id: 'tank',
+    name: 'Tank',
+    color: '#9D4EDD',
+    accentColor: '#C77DFF',
+    speed: 6,
+    acceleration: 5,
+    handling: 9,
+    personality: 'Heavy and stable, great with power-ups',
+  },
+];
+
